@@ -478,7 +478,8 @@
     .new-style .tab-switcher .ind-tab:not(.selected),
     select,
     .pill-container,
-    .user-status-content-wrapper {
+    .user-status-content-wrapper,
+    #compose_recipient_box {
         background-color: hsl(0deg 0% 0% / 20%);
         border-color: hsl(0deg 0% 0% / 60%);
         color: inherit;
@@ -586,7 +587,7 @@
     input[type="number"]:focus,
     textarea:focus,
     textarea.new_message_textarea:focus,
-    .compose_table .recipient_box:focus {
+    #compose_recipient_box:focus {
         border-color: hsl(0deg 0% 0% / 90%);
     }
 
